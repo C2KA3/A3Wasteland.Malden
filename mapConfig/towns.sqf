@@ -23,13 +23,8 @@
 	["Town_16", 350, "La Trinite"],
 	["Town_17", 300, "Saint Louis"],
 	["Town_18", 300, "Larche"],
-	["Town_19", 150, "Radio Station"],
-	["Town_20", 300, "Main Airfield"],
-	["Town_21", 100, "Military Base"],
-	["Town_22", 200, "Northern Ruins"],
-	["Town_23", 150, "Lolisse"],
-	["Town_24", 100, "Saint Jean"],
-	["Town_25", 200, "Military Base"],
-	["Town_26", 80, "Old Farm"],
-	["Town_27", 80, "Corton"]
+	["Town_19", 150, "Lolisse"],
+	["Town_20", 100, "Saint Jean"],
+	["Town_21", 80, "Old Farm"],
+	["Town_22", 80, "Corton"]
 ]
