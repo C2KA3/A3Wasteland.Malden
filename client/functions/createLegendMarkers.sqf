@@ -21,7 +21,7 @@ if (["A3W_privateParking"] call isConfigOn) then
 
 if (["A3W_privateStorage"] call isConfigOn) then
 {
-	_markers pushBack ["Storage", "mil_dot", "ColorUNKNOWN", [1,1]];
+	_markers pushBack ["Storage", "mil_dot", "ColorKhaki", [1,1]];
 };
 
 _mapSize = getNumber (configFile >> "CfgWorlds" >> worldName >> "mapSize");
