@@ -23,7 +23,7 @@ class Header
 	maxPlayers=146; // 144 players, 2 headless clients
 };
 author="A3Wasteland.com Edited by CRAZY TO KILL"; // it would be great if you could keep "A3Wasteland.com" in the name, like "YourName and A3Wasteland.com" :)
-onLoadName = "CRAZY TO KILL - HardCore"; // it would be great if you could keep "A3" in the name, like "ABC A3Wasteland" instead of "ABC Wasteland" :)
+onLoadName = "A3Wasteland Malden"; // it would be great if you could keep "A3" in the name, like "ABC A3Wasteland" instead of "ABC Wasteland" :)
 onLoadMission = "A3Wasteland é um sandbox de sobrevivência onde dois times e jogadores independentes lutam pela sobrevivência.";
 overviewText = "A3Wasteland é um sandbox de sobrevivência onde dois times e jogadores independentes lutam pela sobrevivência.";
 overviewTextLocked = "A3Wasteland é um sandbox de sobrevivência onde dois times e jogadores independentes lutam pela sobrevivência.";
