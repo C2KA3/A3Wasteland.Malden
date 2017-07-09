@@ -68,7 +68,7 @@ class CfgServerInfoMenu
          menuName = "Atualizações";
          title = "GitHub do C2K";
          content[] = {
-            "GitHub: <t color='#0091CD'><a href='https://github.com/bondrj/WastelandA3C2K.Altis'>github.com/bondrj/WastelandA3C2K.Altis<br/></a></t>"
+            "GitHub: <t color='#0091CD'><a href='https://github.com/C2KA3/A3Wasteland.Malden'>github.com/bondrj/A3Wasteland.Malden<br/></a></t>"
          };
       };
    };

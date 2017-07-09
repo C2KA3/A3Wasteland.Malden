@@ -25,11 +25,11 @@ A3W_timeMultiplierNight = 7.0;   // Sets the speed of time between 8 PM and 5 AM
 A3W_moonLight = 1;                // Moon light during night (0 = no, 1 = yes)
 
 // Player settings
-A3W_startingMoney = 10000;          // Amount of money that players start with
+A3W_startingMoney = 3500;          // Amount of money that players start with
 A3W_maxMoney = 1000000;            // Maximum amount of money that will save on players and crates
 A3W_survivalSystem = 1;            // Food and water are required to stay alive (0 = no, 1 = yes) - 0 removes food and water items from the mission
 A3W_unlimitedStamina = 1;          // Allow unlimited sprinting, jumping, etc. (0 = no, 1 = yes) - this also removes energy drinks from the mission
-A3W_bleedingTime = 90;            // Time in seconds for which to allow revive after a critical injury (minimum 10 seconds)
+A3W_bleedingTime = 180;            // Time in seconds for which to allow revive after a critical injury (minimum 10 seconds)
 //A3W_headshotNoRevive = 1;        // Instant death on fatal headshot by enemy player with non-explosive ammo (0 = no, 1 = yes)
 A3W_customDeathMessages = 1;       // If difficulty option deathMessages=0, display custom messages related to causes of death, as defined in fn_deathMessage.sqf (0 = no, 1 = yes)
 A3W_healthTime = 7*60;             // Seconds till death once starving or dehydrated
@@ -112,7 +112,7 @@ PDB_ObjectFileID = "A3W_";         // Object savefile prefix (if you run multipl
 
 // extDB settings
 A3W_extDB_ServerID = 1;            // Server ID to use in the database for the particular server running off this config file; if you have multiple servers, they all need different IDs
-A3W_extDB_Environment = "normal";  // Value used to separate player & object data from multiple environments running on the same map (e.g. "normal", "hardcore", "dev", etc. can be whatever you want)
+A3W_extDB_Environment = "a3w4";  // Value used to separate player & object data from multiple environments running on the same map (e.g. "normal", "hardcore", "dev", etc. can be whatever you want)
 A3W_extDB_playerSaveCrossMap = 1;  // Player saves are shared across maps in same environment, with player location saved separately for each map; death resets save on all maps (0 = no, 1 = yes)
 A3W_extDB_GhostingTimer = 0;       // Number of seconds a player has to wait when switching between servers running the same map (0 = disabled)
 A3W_extDB_GhostingAdmins = 0;      // Apply ghosting restriction to server admins (0 = no, 1 = yes)
@@ -143,7 +143,7 @@ A3W_vehicleSpawning = 1;           // If serverSpawning = 1, spawn vehicles in t
 A3W_vehicleQuantity = 150;         // Approximate number of land vehicles to be spawned in towns
 A3W_planeSpawnOdds = 0.25;         // 50% chance spawning
 A3W_heliSpawnOdds = 0.25;          // 50% chance spawning
-A3W_boatSpawnOdds = 0.50;          // 50% chance spawning
+A3W_boatSpawnOdds = 0.25;          // 50% chance spawning
 A3W_boatSpawning = 1;              // If serverSpawning = 1, spawn boats at marked areas near coasts (0 = no, 1 = yes)
 A3W_heliSpawning = 1;              // If serverSpawning = 1, spawn helicopters in some towns and airfields (0 = no, 1 = yes)
 A3W_planeSpawning = 0;             // If serverSpawning = 1, spawn planes at some airfields (0 = no, 1 = yes)
@@ -161,8 +161,8 @@ A3W_simpleLoot = 0;                // Spawn loot in all buildings (0 = no, 1 = y
 // Territory settings
 A3W_territoryCaptureTime = 2*60;   // Time in seconds needed to capture a territory
 A3W_territoryPayroll = 1;          // Periodically reward sides and indie groups based on how many territories they own (0 = no, 1 = yes)
-A3W_payrollInterval = 10*60;       // Delay in seconds between each payroll
-A3W_payrollAmount = 750;          // Amount of money rewarded per territory on each payroll
+A3W_payrollInterval = 20*60;       // Delay in seconds between each payroll
+A3W_payrollAmount = 1750;          // Amount of money rewarded per territory on each payroll
 
 // Mission settings
 A3W_serverMissions = 1;            // Enable server missions (0 = no, 1 = yes)
