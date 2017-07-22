@@ -112,6 +112,7 @@ if (hasInterface || isServer) then
     [] execVM "addons\scripts\HvD.sqf";                      // High Value Drugrunner
 	[] execVM "addons\scripts\trader.sqf";                 // Trader
 	[] ExecVM "scarCODE\ServerInfoMenu\sqf\initLocal.sqf"; // scarCODE ServerInfoMenu
+	[] execVM "addons\AF_Keypad\AF_KP_vars.sqf";
 };
 
 // Server restart message

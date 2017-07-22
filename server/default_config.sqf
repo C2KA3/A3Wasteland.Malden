@@ -25,8 +25,8 @@ A3W_timeMultiplierNight = 7.0;   // Sets the speed of time between 8 PM and 5 AM
 A3W_moonLight = 1;                // Moon light during night (0 = no, 1 = yes)
 
 // Player settings
-A3W_startingMoney = 3500;          // Amount of money that players start with
-A3W_maxMoney = 1000000;            // Maximum amount of money that will save on players and crates
+A3W_startingMoney = 10000;          // Amount of money that players start with
+A3W_maxMoney = 4000000;            // Maximum amount of money that will save on players and crates
 A3W_survivalSystem = 1;            // Food and water are required to stay alive (0 = no, 1 = yes) - 0 removes food and water items from the mission
 A3W_unlimitedStamina = 1;          // Allow unlimited sprinting, jumping, etc. (0 = no, 1 = yes) - this also removes energy drinks from the mission
 A3W_bleedingTime = 180;            // Time in seconds for which to allow revive after a critical injury (minimum 10 seconds)
@@ -46,7 +46,7 @@ A3W_maxSpawnBeacons = 1;           // Maxmimum number of spawn beacons (0 = disa
 A3W_antiHackUnitCheck = 1;         // Detect players who spawn unauthorized AI units (0 = no, 1 = yes) - disable if you have custom unit scripts/mods like AI recruitment or ALiVE
 A3W_antiHackMinRecoil = 1.0;       // Mininum recoil coefficient enforced by the antihack (recommended values: default = 1.0, TMR Mod = 0.5, VTS Weapon Resting = 0.25) (minimum: 0.02)
 A3W_fastMovementLog = 1;           // Enable fast movement check (0 = no, 1 = yes)
-A3W_fastMovementLogDist = 1200;    // Number of meters in loop before logged
+A3W_fastMovementLogDist = 1500;    // Number of meters in loop before logged
 A3W_fastMovementLoopTime = 1;      // Number of seconds before loop check
 
 // Store settings
@@ -66,10 +66,10 @@ A3W_atmEditorPlacedOnly = 0;       // Only allow access via ATMs placed from the
 A3W_atmMapIcons = 1;               // Draw small icons on the map that indicate ATM locations (0 = no, 1 = yes)
 A3W_atmRemoveIfDisabled = 1;       // Remove all ATMs from map if A3W_atmEnabled is set to 0 (0 = no, 1 = yes)
 
-A3W_bountyMax = 994000;            // Maximum amount of money that can be set as a bounty on someone
-A3W_bountyMinStart = 25000;        // Minimum amount of money to start a bounty on someone
-A3W_bountyRewardPerc = 75;         // Percentage of cost that goes to bounty reward
-A3W_bountyLifetime = 3*24;         // Maximum lifetime in hours for bounty kills to store in DB (storing bounty kills is to prevent from forming groups with someone you collected bounty on)
+A3W_bountyMax = 1400000;            // Maximum amount of money that can be set as a bounty on someone
+A3W_bountyMinStart = 50000;        // Minimum amount of money to start a bounty on someone
+A3W_bountyRewardPerc = 70;         // Percentage of cost that goes to bounty reward
+A3W_bountyLifetime = 4*24;         // Maximum lifetime in hours for bounty kills to store in DB (storing bounty kills is to prevent from forming groups with someone you collected bounty on)
 
 // Not currently implemented, soon
 /*A3W_atmBounties = 1;
@@ -162,7 +162,7 @@ A3W_simpleLoot = 0;                // Spawn loot in all buildings (0 = no, 1 = y
 A3W_territoryCaptureTime = 2*60;   // Time in seconds needed to capture a territory
 A3W_territoryPayroll = 1;          // Periodically reward sides and indie groups based on how many territories they own (0 = no, 1 = yes)
 A3W_payrollInterval = 20*60;       // Delay in seconds between each payroll
-A3W_payrollAmount = 1750;          // Amount of money rewarded per territory on each payroll
+A3W_payrollAmount = 5000;          // Amount of money rewarded per territory on each payroll
 
 // Mission settings
 A3W_serverMissions = 1;            // Enable server missions (0 = no, 1 = yes)
