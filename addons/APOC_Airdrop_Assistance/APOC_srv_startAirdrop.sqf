@@ -34,7 +34,7 @@ _price = (_selectionArray select _selectionNumber) select 2;
 APOC_AA_lastUsedTime = diag_tickTime;
 publicVariable "APOC_AA_lastUsedTime";
 
-_heliType = "B_T_VTOL_01_armed_F";
+_heliType = "B_Heli_Transport_03_unarmed_F";
 _center = createCenter civilian;
 _grp = createGroup civilian;
 if(isNil("_grp2"))then{_grp2 = createGroup civilian;}else{_grp2 = _grp2;};
@@ -86,7 +86,7 @@ _object = switch (_type) do
 		_object setVariable ["ownerUID", getPlayerUID _player, true];
 		_object setVariable ["ownerName", name _player, true];
 		_object setVariable ["A3W_purchasedVehicle", true, true];
-		_object setVariable ["A3W_skipAutoSave", true, true];
+		//_object setVariable ["A3W_skipAutoSave", true, true];
 		[_object, false] call vehicleSetup;
 		_object attachTo [_heli, [0,0,-5]];
 		_object
