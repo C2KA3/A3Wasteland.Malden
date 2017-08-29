@@ -67,10 +67,10 @@ briefing = 0; // if 0, skip Continue button
 #include "addons\outlw_magrepack\config.hpp"
 #include "addons\gui\gui.hpp"
 #include "addons\parking\list_simple_menu.hpp"
-//#include "addons\CHVD\dialog.hpp"
+#include "addons\CHVD\dialog.hpp"
 
 #include "addons\JTS_PM\PM_Compact.hpp"
-#include "addons\taw_vd\dialog.hpp"
+//#include "addons\taw_vd\dialog.hpp"
 #include "infiSTAR_AdminMenu.hpp"
 #include "scarCODE\ServerInfoMenu\hpp\CfgServerInfoMenu.hpp"
 #include "scarCODE\ServerInfoMenu\hpp\RscDisplayServerInfoMenu.hpp"
@@ -130,8 +130,8 @@ class CfgFunctions
 		};
 	};	
 
-	#include "addons\taw_vd\CfgFunctions.hpp"
-	//#include "addons\CHVD\CfgFunctions.hpp"
+	//#include "addons\taw_vd\CfgFunctions.hpp"
+	#include "addons\CHVD\CfgFunctions.hpp"
 };
 
 class CfgNotifications

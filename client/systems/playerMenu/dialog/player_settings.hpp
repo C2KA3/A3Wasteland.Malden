@@ -178,7 +178,7 @@ class playerSettings {
 		class btnDistanceFar : w_RscButton {
 			idc = -1;
 			text = "Ver Distância";
-			onButtonClick = "[] spawn TAWVD_fnc_openTAWVD;";
+			OnButtonClick = " chame CHVD_fnc_openDialog " ;
 			x = 0.65;
 			y = 0.64;
 			w = 0.2625;
